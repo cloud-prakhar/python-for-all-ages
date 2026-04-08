@@ -1,4 +1,4 @@
-# Python Course: From Zero to Hero!
+# Python Course: For All Ages!!
 
 > Beginner to Intermediate | No Prior Experience Required
 
