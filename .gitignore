@@ -1,12 +1,33 @@
-# Claude AI files - never commit these
+# =============================================================
+# .gitignore — Python For All Ages Course
+# =============================================================
+# This repo is the STUDENT-FACING version of the course.
+# Files listed here are kept local only and never pushed to GitHub.
+# =============================================================
+
+
+# -------------------------------------------------------------
+# AI / Claude Code working files
+# These are used by Claude Code and should never be committed.
+# -------------------------------------------------------------
 CLAUDE.md
 .claude/
+MEMORY.md
+memory/
 
-# Instructor-only files - never commit these
-session_*_delivery_guide.md
-assignments/*_solutions.md
 
-# Python
+# -------------------------------------------------------------
+# Instructor-only content
+# These files contain teacher notes, timed delivery plans,
+# and teacher tips that are not meant for students.
+# -------------------------------------------------------------
+session_delivery/
+
+
+# -------------------------------------------------------------
+# Python build artifacts
+# Generated automatically when Python runs — not source files.
+# -------------------------------------------------------------
 __pycache__/
 *.py[cod]
 *$py.class
@@ -19,26 +40,39 @@ build/
 *.pyo
 *.pyd
 
+
+# -------------------------------------------------------------
 # Virtual environments
+# Dependency sandboxes — installed locally, not committed.
+# -------------------------------------------------------------
 venv/
 env/
 .venv/
 .env/
 ENV/
 
-# IDE
+
+# -------------------------------------------------------------
+# IDE and editor files
+# Per-developer settings — different for each machine.
+# -------------------------------------------------------------
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OS
+
+# -------------------------------------------------------------
+# OS-generated files
+# Not part of the project — created by Windows/macOS file system.
+# -------------------------------------------------------------
 .DS_Store
 Thumbs.db
 
-# Jupyter
+
+# -------------------------------------------------------------
+# Jupyter notebooks and logs
+# -------------------------------------------------------------
 .ipynb_checkpoints/
 *.ipynb
-
-# Logs
 *.log
