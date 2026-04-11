@@ -66,6 +66,7 @@ Each chapter folder contains:
 ## Quick Reference
 
 - [Python Symbols Guide](reference/python_symbols_guide.md) — When to use `()`, `[]`, `{}`, f-strings, format specifiers, and the dot operator. **Read before starting Chapter 2.**
+- [Python Keywords Guide](reference/python_keywords_guide.md) — All 35 reserved words explained with examples, mapped to the chapter where each one first appears.
 - `exercises/` — Practice problems to reinforce learning
 
 ---
