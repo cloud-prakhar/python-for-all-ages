@@ -2,7 +2,7 @@
 #
 # NOTE FOR STUDENTS: Try the exercises yourself first before reading these solutions!
 # Understanding WHY the solution works is more important than copying it.
-
+##
 print("=" * 50)
 print("CHAPTER 1 EXERCISE SOLUTIONS")
 print("=" * 50)
